@@ -312,7 +312,7 @@ int main() {
     string sum_result = add_school(I1, I2, B);
     // string sub_result = sub_school(I1, I2, B);
     // string mul_school_result = mul_school(I1, I2, B);
-    string mul_result = karatsuba(I1, I2, B);
+    string mul_result = "0";
     string div_result = "0";
     // cout << sub_result << endl;
     // cout<< mul_school_result << endl;
