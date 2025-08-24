@@ -1,7 +1,7 @@
 /*
  * @Author: Zichu Zhao
- * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- * @LastEditTime: 2025-08-24 14:27:22
+ * @LastEditors: Zichu Zhao 965927155@qq.com
+ * @LastEditTime: 2025-08-24 14:50:42
  * @FilePath: /Assignment-1/main.cpp
  * @Description: This file contains the implementation of basic arithmetic operations (addition, subtraction, multiplication) for large integers represented as strings, using both a school method and Karatsuba algorithm.
  
@@ -312,7 +312,7 @@ int main() {
     string sum_result = add_school(I1, I2, B);
     // string sub_result = sub_school(I1, I2, B);
     // string mul_school_result = mul_school(I1, I2, B);
-    string mul_result = "0";
+    string mul_result = karatsuba(I1, I2, B);
     string div_result = "0";
     // cout << sub_result << endl;
     // cout<< mul_school_result << endl;
